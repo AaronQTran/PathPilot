@@ -17,5 +17,13 @@ Batch files can be found here: https://www.techtarget.com/searchwindowsserver/de
 PyQt5 was mainly used to help connect the HTML frontend to backend. More information on PyQt5 can be found
 here: https://pypi.org/project/PyQt5/#:~:text=PyQt5%205.15.10&text=Qt%20is%20set%20of%20cross,well%20as%20traditional%20UI%20development.
 
+---------------------------------------------------------------------------------------------------------
+In order to set up path pilot, you must create a batch file, preferably named 'Open_Application_test' 
+and connect it to the program by changing the file location. The file path can be found by opening the 
+'properties' of the batch file. As seen here:
+
+![bat file](https://github.com/AaronQTran/PathPilot/assets/119716713/3e6f600e-61ad-4a03-bde2-165c21018b45)
+
+
 
 
