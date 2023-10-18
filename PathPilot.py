@@ -9,7 +9,7 @@ class Buttons(QMainWindow):
     #calls all buttons and makes shortcut list
     def __init__(self):
         super(Buttons,self).__init__()
-        uic.loadUi("PathPilot",self)
+        uic.loadUi("PathPilotGui",self)
         self.show()
         self.actionClose.triggered.connect(exit)
         self.pushButton.clicked.connect(self.add)
