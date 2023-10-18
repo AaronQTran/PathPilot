@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
-    <height>607</height>
+    <width>608</width>
+    <height>556</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(54,57,62);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="lineEdit">
@@ -23,15 +26,8 @@
       <height>20</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>110</y>
-      <width>161</width>
-      <height>20</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -44,7 +40,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 85, 255);</string>
+     <string notr="true">background-color: rgb(15,76,92);
+color:white;</string>
     </property>
     <property name="text">
      <string>Add Shortcut</string>
@@ -54,13 +51,14 @@
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>110</y>
+      <y>100</y>
       <width>101</width>
       <height>23</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 0, 0);</string>
+     <string notr="true">background-color: rgb(95,15,64);
+color:white;</string>
     </property>
     <property name="text">
      <string>Remove Shortcut</string>
@@ -69,38 +67,35 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>150</y>
+      <x>290</x>
+      <y>20</y>
       <width>101</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+background-color: rgb(251, 139, 56);</string>
     </property>
     <property name="text">
      <string>Shortcut list</string>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="Count">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>140</y>
-      <width>64</width>
-      <height>23</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>350</y>
-      <width>211</width>
+      <x>40</x>
+      <y>200</y>
+      <width>201</width>
       <height>171</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);
-font: 75 20pt &quot;Times New Roman&quot;;</string>
+     <string notr="true">background-color: rgb(251, 139, 36);
+background-color: rgb(85, 170, 127);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 22pt &quot;MS Shell Dlg 2&quot;;
+color:white;</string>
     </property>
     <property name="text">
      <string>RUN PROGRAM</string>
@@ -109,18 +104,46 @@ font: 75 20pt &quot;Times New Roman&quot;;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>173</y>
-      <width>261</width>
-      <height>371</height>
+      <x>290</x>
+      <y>40</y>
+      <width>301</width>
+      <height>471</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>
-     </string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>161</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Note: Program must be restarted to see changes</string>
     </property>
    </widget>
   </widget>
@@ -129,7 +152,7 @@ font: 75 20pt &quot;Times New Roman&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>613</width>
+     <width>608</width>
      <height>21</height>
     </rect>
    </property>
