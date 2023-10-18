@@ -5,11 +5,11 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QApplication, QLabel, QDialog, QWidget, QComboBox
 from PyQt5 import uic
 
-class MyGui(QMainWindow):
+class Buttons(QMainWindow):
     #calls all buttons and makes shortcut list
     def __init__(self):
-        super(MyGui,self).__init__()
-        uic.loadUi("MyGui",self)
+        super(Buttons,self).__init__()
+        uic.loadUi("PathPilot",self)
         self.show()
         self.actionClose.triggered.connect(exit)
         self.pushButton.clicked.connect(self.add)
@@ -83,7 +83,7 @@ def add():
 
 def main():
     app = QApplication([])
-    window = MyGui()
+    window = Buttons()
     app.exec_()
 
 
